@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        app:showAsAction="always"
+        android:onClick="Edit"
+        android:icon="@drawable/ic_group_add_black_24dp"
+        android:title="Edit Contact"/>
+    <item
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:onClick="add"
+        android:title="Add Contact"
+        app:showAsAction="always"/>
+</menu>
